@@ -1,0 +1,33 @@
+/* reset */
+*{
+    margin: 0;
+    padding: 40px;
+    box-sizing: border-box;
+   
+}
+
+body{
+    background-color: lightcoral;
+    height: 1fr;
+    
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    background-color: red;
+}
+
+main{
+    background-color: slateblue;
+    display: grid;
+    grid-template-columns: 30px, 30px, 30px;
+    grid-template-rows: 70px, 70px, 70px;
+}
+
+footer{
+    height: 25px;
+    background-color: saddlebrown;
+}
